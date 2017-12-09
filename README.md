@@ -9,8 +9,8 @@
   
   import the db.sql to the database.
   
-To run the react app run "npm start" on the terminal
-To run the nodejs server run "node app.js" on the terminal
+2. To run the react app run "npm start" on the terminal
+3. To run the nodejs server run "node app.js" on the terminal
 
 open http://localhost:3000/
 
