@@ -1,0 +1,175 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background: #ededed;
+}
+
+.App-header {
+  background-color: #222;
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.Chat-list{
+  background-color: #333;
+  height: 100vh;
+  padding-top: 5px;
+}
+
+.Chat-view{
+  background: #ededed;
+  padding:10px;
+  height: 100%;
+  margin-bottom: 34px;
+  display: grid;
+}
+
+.Chat-panel{
+  padding: 0px !important;
+}
+
+.col-md-12{
+  padding: 0px !important;
+}
+
+.col-md-12{
+  padding: 0px !important;
+}
+
+.Entry-panel{
+  color:#333;
+  text-align: left;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+  background: #ededed;
+  cursor: pointer;
+}
+
+.Entry-panel:hover{
+  color:#ededed;
+  background: #333;
+}
+
+.BubbleWrapper-panel{
+  margin: 10px 10px 10px 10px;
+}
+
+.BubbleWrapper{
+  height: 85px;
+}
+
+.BubbleMe-panel{
+    float:right;
+    margin-left:10%;
+    background:#333;
+    color:#fff;
+}
+
+.BubbleYou-panel{
+    float: left;       
+    margin-right:10%;
+    background:#ccc;
+    color:#333;
+}
+
+.BubbleMe-panel,
+.BubbleYou-panel {
+    line-height: 100%;
+    display: block;
+    position: relative;
+    padding: .45em .6em;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    margin-bottom: 1em;
+    clear: both;
+    max-width:50%;
+    margin-top: 12px;
+}
+
+.Chat-text{
+  position: fixed;
+  bottom: 0px;
+}
+
+.Send-btn{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+.LoginView{
+  position: absolute;
+  top: 10px;
+  right: 60%;
+}
+
+.MessageYou{
+  font-size: 16px;
+  text-align: left;
+}
+
+.MessageYouDate{    
+  font-size: 10px;
+  text-align: right;
+  color: #777;
+  margin-top: 3px;
+}
+
+.MessageYouUser{
+  text-align: left;
+  font-size: 13px;
+  margin-top: -22px;
+  margin-bottom: 8px;
+}
+
+.MessageMe{
+  font-size: 16px;
+  text-align: right;
+}
+
+.MessageMeDate{    
+  font-size: 10px;
+  text-align: left;
+  color: #777;
+  margin-top: 3px;
+}
+
+.MessageMeUser{
+    text-align: right;
+    font-size: 13px;
+    margin-top: -22px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.Delete{
+  color: #8e1a1a;
+  float: right;
+  cursor: pointer;
+}
+
+.Edit{
+  float: left;
+  cursor: pointer;
+}
+
+.UserChat{
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 992px) {
+  .Chat-list{
+    display: none;
+  }
+
+  .LoginView{
+    position: absolute;
+    top: 10px;
+    right: 40%;
+  }
+}
